@@ -1,0 +1,3 @@
+ninja: Entering directory `D:\Nam3_ki2\Laptrinhmobile\AppAIAndroid\OpenCV4.7.0\.cxx\Debug\c6g47112\armeabi-v7a'
+[1/2] Building CXX object CMakeFiles/opencv_jni_shared.dir/dummy.cpp.o
+[2/2] Linking CXX static library libopencv_jni_shared.a

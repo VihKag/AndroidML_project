@@ -1,0 +1,19 @@
+@echo off
+"C:\\Users\\Dell\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\cmake.exe" ^
+  "-HD:\\Nam3_ki2\\Laptrinhmobile\\AppAIAndroid\\OpenCV4.7.0\\libcxx_helper" ^
+  "-DCMAKE_SYSTEM_NAME=Android" ^
+  "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON" ^
+  "-DCMAKE_SYSTEM_VERSION=21" ^
+  "-DANDROID_PLATFORM=android-21" ^
+  "-DANDROID_ABI=arm64-v8a" ^
+  "-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a" ^
+  "-DANDROID_NDK=C:\\Users\\Dell\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620" ^
+  "-DCMAKE_ANDROID_NDK=C:\\Users\\Dell\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620" ^
+  "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\Dell\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\build\\cmake\\android.toolchain.cmake" ^
+  "-DCMAKE_MAKE_PROGRAM=C:\\Users\\Dell\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+  "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\\Nam3_ki2\\Laptrinhmobile\\AppAIAndroid\\OpenCV4.7.0\\build\\intermediates\\cxx\\Debug\\c6g47112\\obj\\arm64-v8a" ^
+  "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=D:\\Nam3_ki2\\Laptrinhmobile\\AppAIAndroid\\OpenCV4.7.0\\build\\intermediates\\cxx\\Debug\\c6g47112\\obj\\arm64-v8a" ^
+  "-DCMAKE_BUILD_TYPE=Debug" ^
+  "-BD:\\Nam3_ki2\\Laptrinhmobile\\AppAIAndroid\\OpenCV4.7.0\\.cxx\\Debug\\c6g47112\\arm64-v8a" ^
+  -GNinja ^
+  "-DANDROID_STL=c++_shared"

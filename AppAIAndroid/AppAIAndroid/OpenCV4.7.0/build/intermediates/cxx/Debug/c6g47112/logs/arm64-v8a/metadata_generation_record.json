@@ -1,0 +1,44 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 21 min SDK version: arm64-v8a",
+    "file_": "D:\\Nam3_ki2\\Laptrinhmobile\\AppAIAndroid\\OpenCV4.7.0\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -270290024
+  },
+  {
+    "level_": 0,
+    "message_": "JSON \u0027D:\\Nam3_ki2\\Laptrinhmobile\\AppAIAndroid\\OpenCV4.7.0\\.cxx\\Debug\\c6g47112\\arm64-v8a\\android_gradle_build.json\u0027 was up-to-date",
+    "file_": "D:\\Nam3_ki2\\Laptrinhmobile\\AppAIAndroid\\OpenCV4.7.0\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -9144096
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "D:\\Nam3_ki2\\Laptrinhmobile\\AppAIAndroid\\OpenCV4.7.0\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 832416055
+  }
+]
