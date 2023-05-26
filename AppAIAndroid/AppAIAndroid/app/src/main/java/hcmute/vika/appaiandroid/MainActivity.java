@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_main);
 
         getPermission();
         String[] labels=new String[1001];
@@ -59,12 +59,7 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
         Init();
-        cameraBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity( new Intent(MainActivity.this, CameraActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP));
-            }
-        });
+
 
         selectedBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -125,6 +120,13 @@ public class MainActivity extends AppCompatActivity {
                 bundle.putString("query",query);
                 intent.putExtras(bundle);
                 startActivity(intent);
+            }
+        });
+
+        cameraBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity( new Intent(MainActivity.this, CameraActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP));
             }
         });
     }

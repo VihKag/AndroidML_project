@@ -49,16 +49,6 @@ public class LoginActivity extends AppCompatActivity {
         buttonRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                String username = editTextUsername.getText().toString();
-//                String password = editTextPassword.getText().toString();
-//                if (register(username, password)) {
-//                    // Đăng ký thành công, chuyển đến trang đăng nhập
-//                    // Intent intent = new Intent(LoginActivity.this, LoginActivity.class);
-//                    // startActivity(intent);
-//                } else {
-//                    // Hiển thị thông báo lỗi đăng ký
-//                    Toast.makeText(LoginActivity.this, "Registration failed", Toast.LENGTH_SHORT).show();
-//                }
                  Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
                  startActivity(intent);
             }
@@ -70,15 +60,5 @@ public class LoginActivity extends AppCompatActivity {
         return dbHelper.checkUser(username, password);
     }
 
-    private boolean register(String username, String password) {
-        // Kiểm tra xem người dùng đã tồn tại hay chưa
-        if (dbHelper.checkUser(username,password)) {
-            // Người dùng đã tồn tại, đăng ký không thành công
-            return false;
-        }
 
-        // Thêm người dùng mới vào cơ sở dữ liệu
-        dbHelper.addUser(username, password);
-        return true;
-    }
 }
