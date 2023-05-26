@@ -3,6 +3,6 @@
 3    package="org.opencv" >
 4
 5    <uses-sdk android:minSdkVersion="21" />
-5-->D:\download\AppAIAndroid\AppAIAndroid\OpenCV4.7.0\java\AndroidManifest.xml
+5-->D:\download\AndroidML_project\AppAIAndroid\AppAIAndroid\OpenCV4.7.0\java\AndroidManifest.xml
 6
 7</manifest>

@@ -6,9 +6,9 @@
     "deprecated": false,
     "default": true
   },
-  "cxxBuildFolder": "D:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\.cxx\\Debug\\c6g47112\\x86",
-  "soFolder": "D:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\build\\intermediates\\cxx\\Debug\\c6g47112\\obj\\x86",
-  "soRepublishFolder": "D:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\build\\intermediates\\cmake\\debug\\obj\\x86",
+  "cxxBuildFolder": "D:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\.cxx\\Debug\\c6g47112\\x86",
+  "soFolder": "D:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\build\\intermediates\\cxx\\Debug\\c6g47112\\obj\\x86",
+  "soRepublishFolder": "D:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\build\\intermediates\\cmake\\debug\\obj\\x86",
   "abiPlatformVersion": 21,
   "cmake": {
     "effectiveConfiguration": {
@@ -33,13 +33,13 @@
     "implicitBuildTargetSet": [],
     "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
     "module": {
-      "cxxFolder": "D:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\.cxx",
-      "intermediatesBaseFolder": "D:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\build\\intermediates",
-      "intermediatesFolder": "D:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\build\\intermediates\\cxx",
+      "cxxFolder": "D:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\.cxx",
+      "intermediatesBaseFolder": "D:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\build\\intermediates",
+      "intermediatesFolder": "D:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\build\\intermediates\\cxx",
       "gradleModulePathName": ":OpenCV4.7.0",
-      "moduleRootFolder": "D:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0",
-      "moduleBuildFile": "D:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\build.gradle",
-      "makeFile": "D:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\libcxx_helper\\CMakeLists.txt",
+      "moduleRootFolder": "D:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0",
+      "moduleBuildFile": "D:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\build.gradle",
+      "makeFile": "D:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\libcxx_helper\\CMakeLists.txt",
       "buildSystem": "CMAKE",
       "ndkFolder": "C:\\Users\\LIGION\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620",
       "ndkVersion": "23.1.7779620",
@@ -59,7 +59,25 @@
       "ndkMetaPlatforms": {
         "min": 16,
         "max": 31,
-        "aliases": {}
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30,
+          "S": 31
+        }
       },
       "ndkMetaAbiList": [
         {
@@ -105,7 +123,7 @@
         "SYSTEM": {}
       },
       "project": {
-        "rootBuildGradleFolder": "D:\\download\\AppAIAndroid\\AppAIAndroid",
+        "rootBuildGradleFolder": "D:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid",
         "sdkFolder": "C:\\Users\\LIGION\\AppData\\Local\\Android\\Sdk",
         "isBuildOnlyTargetAbiEnabled": true,
         "ideBuildTargetAbi": "x86",
@@ -124,12 +142,12 @@
   "buildSettings": {
     "environmentVariables": []
   },
-  "prefabFolder": "D:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\.cxx\\Debug\\c6g47112\\prefab\\x86",
+  "prefabFolder": "D:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\.cxx\\Debug\\c6g47112\\prefab\\x86",
   "isActiveAbi": true,
   "fullConfigurationHash": "c6g4711251216v4i442u3y5f5x553n5l735p1b1s5p2z172s6t4xy5q1n4454",
   "fullConfigurationHashKey": "# Values used to calculate the hash in this folder name.\n# Should not depend on the absolute path of the project itself.\n#   - AGP: 7.4.1.\n#   - $NDK is the path to NDK 23.1.7779620.\n#   - $PROJECT is the path to the parent folder of the root Gradle build file.\n#   - $ABI is the ABI to be built with. The specific value doesn\u0027t contribute to the value of the hash.\n#   - $HASH is the hash value computed from this text.\n#   - $CMAKE is the path to CMake 3.22.1.\n#   - $NINJA is the path to Ninja.\n-H$PROJECT/OpenCV4.7.0/libcxx_helper\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d21\n-DANDROID_PLATFORM\u003dandroid-21\n-DANDROID_ABI\u003d$ABI\n-DCMAKE_ANDROID_ARCH_ABI\u003d$ABI\n-DANDROID_NDK\u003d$NDK\n-DCMAKE_ANDROID_NDK\u003d$NDK\n-DCMAKE_TOOLCHAIN_FILE\u003d$NDK/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d$NINJA\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d$PROJECT/OpenCV4.7.0/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d$PROJECT/OpenCV4.7.0/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_BUILD_TYPE\u003dDebug\n-B$PROJECT/OpenCV4.7.0/.cxx/Debug/$HASH/$ABI\n-GNinja\n-DANDROID_STL\u003dc++_shared",
   "configurationArguments": [
-    "-HD:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\libcxx_helper",
+    "-HD:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\libcxx_helper",
     "-DCMAKE_SYSTEM_NAME\u003dAndroid",
     "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
     "-DCMAKE_SYSTEM_VERSION\u003d21",
@@ -140,13 +158,13 @@
     "-DCMAKE_ANDROID_NDK\u003dC:\\Users\\LIGION\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620",
     "-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\LIGION\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\build\\cmake\\android.toolchain.cmake",
     "-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\LIGION\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
-    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\build\\intermediates\\cxx\\Debug\\c6g47112\\obj\\x86",
-    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dD:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\build\\intermediates\\cxx\\Debug\\c6g47112\\obj\\x86",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\build\\intermediates\\cxx\\Debug\\c6g47112\\obj\\x86",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dD:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\build\\intermediates\\cxx\\Debug\\c6g47112\\obj\\x86",
     "-DCMAKE_BUILD_TYPE\u003dDebug",
-    "-BD:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\.cxx\\Debug\\c6g47112\\x86",
+    "-BD:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\.cxx\\Debug\\c6g47112\\x86",
     "-GNinja",
     "-DANDROID_STL\u003dc++_shared"
   ],
   "stlLibraryFile": "C:\\Users\\LIGION\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
-  "intermediatesParentFolder": "D:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\build\\intermediates\\cxx\\Debug\\c6g47112"
+  "intermediatesParentFolder": "D:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\build\\intermediates\\cxx\\Debug\\c6g47112"
 }

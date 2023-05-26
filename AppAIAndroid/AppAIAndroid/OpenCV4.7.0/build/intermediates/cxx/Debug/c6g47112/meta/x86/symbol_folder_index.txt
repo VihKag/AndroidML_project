@@ -1,1 +1,1 @@
-D:\download\AppAIAndroid\AppAIAndroid\OpenCV4.7.0\build\intermediates\cxx\Debug\c6g47112\obj\x86
+D:\download\AndroidML_project\AppAIAndroid\AppAIAndroid\OpenCV4.7.0\build\intermediates\cxx\Debug\c6g47112\obj\x86

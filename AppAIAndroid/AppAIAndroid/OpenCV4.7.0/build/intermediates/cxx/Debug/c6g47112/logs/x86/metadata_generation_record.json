@@ -2,7 +2,7 @@
   {
     "level_": 0,
     "message_": "Start JSON generation. Platform version: 21 min SDK version: x86",
-    "file_": "D:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\libcxx_helper\\CMakeLists.txt",
+    "file_": "D:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\libcxx_helper\\CMakeLists.txt",
     "tag_": "debug|x86",
     "diagnosticCode_": 0,
     "memoizedIsInitialized": 1,
@@ -11,12 +11,12 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": -2033741138
+    "memoizedHashCode": -839204873
   },
   {
     "level_": 0,
-    "message_": "JSON \u0027D:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\.cxx\\Debug\\c6g47112\\x86\\android_gradle_build.json\u0027 was up-to-date",
-    "file_": "D:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\libcxx_helper\\CMakeLists.txt",
+    "message_": "JSON \u0027D:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\.cxx\\Debug\\c6g47112\\x86\\android_gradle_build.json\u0027 was up-to-date",
+    "file_": "D:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\libcxx_helper\\CMakeLists.txt",
     "tag_": "debug|x86",
     "diagnosticCode_": 0,
     "memoizedIsInitialized": 1,
@@ -25,12 +25,12 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": 1244621334
+    "memoizedHashCode": -794671173
   },
   {
     "level_": 0,
     "message_": "JSON generation completed without problems",
-    "file_": "D:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\libcxx_helper\\CMakeLists.txt",
+    "file_": "D:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\libcxx_helper\\CMakeLists.txt",
     "tag_": "debug|x86",
     "diagnosticCode_": 0,
     "memoizedIsInitialized": 1,
@@ -39,6 +39,6 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": 2053115323
+    "memoizedHashCode": -1047315708
   }
 ]

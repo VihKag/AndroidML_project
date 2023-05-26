@@ -1,6 +1,6 @@
 @echo off
 "C:\\Users\\LIGION\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\cmake.exe" ^
-  "-HD:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\libcxx_helper" ^
+  "-HD:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\libcxx_helper" ^
   "-DCMAKE_SYSTEM_NAME=Android" ^
   "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON" ^
   "-DCMAKE_SYSTEM_VERSION=21" ^
@@ -11,9 +11,9 @@
   "-DCMAKE_ANDROID_NDK=C:\\Users\\LIGION\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620" ^
   "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\LIGION\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\build\\cmake\\android.toolchain.cmake" ^
   "-DCMAKE_MAKE_PROGRAM=C:\\Users\\LIGION\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
-  "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\build\\intermediates\\cxx\\Debug\\c6g47112\\obj\\x86" ^
-  "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=D:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\build\\intermediates\\cxx\\Debug\\c6g47112\\obj\\x86" ^
+  "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\build\\intermediates\\cxx\\Debug\\c6g47112\\obj\\x86" ^
+  "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=D:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\build\\intermediates\\cxx\\Debug\\c6g47112\\obj\\x86" ^
   "-DCMAKE_BUILD_TYPE=Debug" ^
-  "-BD:\\download\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\.cxx\\Debug\\c6g47112\\x86" ^
+  "-BD:\\download\\AndroidML_project\\AppAIAndroid\\AppAIAndroid\\OpenCV4.7.0\\.cxx\\Debug\\c6g47112\\x86" ^
   -GNinja ^
   "-DANDROID_STL=c++_shared"

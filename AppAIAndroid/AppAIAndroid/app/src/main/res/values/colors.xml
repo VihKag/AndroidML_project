@@ -10,4 +10,6 @@
     <color name="pressed_color" tools:ignore="MissingDefaultResource">#18FFFF</color> <!-- màu đỏ khi button được ấn -->
     <color name="default_color" tools:ignore="MissingDefaultResource">#448AFF</color> <!-- màu xanh lá cây mặc định của button -->
     <color name="blue" tools:ignore="MissingDefaultResource">#3D5AFE</color>
+    <color name="light_blue">#0090FF</color>
+    <color name="blank_page">#F1F1F1</color>
 </resources>

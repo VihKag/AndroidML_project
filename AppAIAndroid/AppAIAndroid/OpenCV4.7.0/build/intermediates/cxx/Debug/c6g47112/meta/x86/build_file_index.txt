@@ -1,1 +1,1 @@
-D:\download\AppAIAndroid\AppAIAndroid\OpenCV4.7.0\libcxx_helper\CMakeLists.txt
+D:\download\AndroidML_project\AppAIAndroid\AppAIAndroid\OpenCV4.7.0\libcxx_helper\CMakeLists.txt
