@@ -29,6 +29,13 @@ public class LoginActivity extends AppCompatActivity {
         buttonLogin = findViewById(R.id.buttonLogin);
         buttonRegister = findViewById(R.id.buttonRegister);
 
+//        Intent intentrc= getIntent();
+        Bundle extras = getIntent().getExtras();
+        if(extras!=null){
+            String mess=extras.getString("ToastRegister");
+            Toast.makeText(this, mess, Toast.LENGTH_SHORT).show();
+        }
+
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -57,7 +64,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private boolean login(String username, String password) {
         // Kiểm tra thông tin đăng nhập
-        return dbHelper.checkUser(username, password);
+        return dbHelper.checkUserlogin(username, password);
     }
 
 

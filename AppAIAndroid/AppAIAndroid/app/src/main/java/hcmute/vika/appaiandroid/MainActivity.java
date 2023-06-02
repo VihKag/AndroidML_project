@@ -33,7 +33,7 @@ import hcmute.vika.appaiandroid.ml.MobilenetV110224Quant;
 
 public class MainActivity extends AppCompatActivity {
     Button selectedBtn,captureBtn,predictBtn,searchBtn;
-    FloatingActionButton cameraBtn;
+    FloatingActionButton cameraBtn,logoutBtn;
     TextView result;
     ImageView imageView;
     Bitmap bitmap;
@@ -129,9 +129,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivity( new Intent(MainActivity.this, CameraActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP));
             }
         });
+        logoutBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(intent);
+                finish(); // Đóng Activity hiện tại để ngăn người dùng quay lại màn hình sau khi đã log out
+            }
+        });
     }
 
     private void Init() {
+        logoutBtn=findViewById(R.id.floatingActionButton2);
         cameraBtn=findViewById(R.id.floatingActionButton);
         selectedBtn=findViewById(R.id.button);
         captureBtn=findViewById(R.id.button2);
