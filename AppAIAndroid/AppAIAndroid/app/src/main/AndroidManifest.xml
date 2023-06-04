@@ -64,7 +64,6 @@
         <activity
             android:name=".ResultSearchActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
