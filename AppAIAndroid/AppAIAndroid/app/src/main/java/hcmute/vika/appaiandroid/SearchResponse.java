@@ -25,7 +25,6 @@ public class SearchResponse {
             // Declare and initialize the searchResult variable
             SearchResult searchResult = response.body();
 
-            // Rest of your code...
         }
         // Rest of your code...
     }
